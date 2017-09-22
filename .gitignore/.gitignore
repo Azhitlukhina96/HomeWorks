@@ -1,0 +1,69 @@
+// ConsoleApplication3.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+
+//5
+int main()
+{
+	int my_var_a = 1;
+	int result = ((my_var_a << 1) << 1) | 1;
+	printf("%d\n", result);
+	return 0;
+}
+
+// ConsoleApplication4.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+
+//15
+int main()
+{
+	int my_var_a = 1;
+	int result = (((my_var_a << 1) << 1) << 1) | 7;
+	printf("%d\n", result);
+	return 0;
+}
+
+// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+
+//17
+int main()
+{
+	int my_var_a = 1;
+	int result = ((((my_var_a << 1) << 1) << 1) << 1) | 1;
+	printf("%d\n", result);
+	return 0;
+}
+
+// ConsoleApplication6.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+
+//64
+int main()
+{
+	int my_var_a = 1;
+	int result = (my_var_a >> 1) >> 1 | 64;
+	printf("%d\n", result);
+	return 0;
+}
+
+// ConsoleApplication7.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+
+//1024
+int main()
+{
+	int my_var_a = 1;
+	int result = (my_var_a >> 1) >> 1 | 1024;
+	printf("%d\n", result);
+	return 0;
+}
